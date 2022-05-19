@@ -1,0 +1,150 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+
+h1{
+	font-family: 'Impact';
+	background-color:#9BDF46 ;
+	text-align: center;
+	color: #602080;
+}
+
+h2{
+	font-family: 'Impact';
+	text-align: left;
+	color: #602080;
+}
+	
+body{
+	background:#B4FE98;
+	font-family:'calibri';
+}
+
+header{
+	background:#FBF46D;
+	width:100%;
+	clear:both;
+	content:' ';
+	display:table;
+}
+
+.menu{
+	width:900px;
+    margin:0 auto;
+}
+
+img{
+	width:330px;
+	height:100px;
+	float: left;
+	padding:8px;
+	
+}
+#santiagoimagen{
+	width:550px;
+	height:395px;
+	float:auto;
+	padding:8px;	
+}
+#tefaimagen{
+	width:640px;
+	height:201px;
+	float:auto;
+	padding:8px;
+}
+#marianaimagen{
+	width:640px;
+	height:262px;
+	float:auto;
+	padding:8px;
+}
+#stefaimagen{
+	width:970px;
+	height:335px;
+	float:auto;
+	padding:8px;
+}
+#yoimagen{
+	width:300px;
+	height:145px;
+	float:auto;
+	padding:8px;
+}
+
+nav{
+	float:right;
+}
+
+nav ul li {
+	list-style: none;
+	margin-left: 75px;
+	padding: 12px 0;
+	float: left;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #4B088A;
+	font-weight: bold;
+}
+
+nav ul li a::before {
+	display: block;	
+	content: '';
+	width: 0%;
+	background: #444;
+	height: 5px;
+	top: 0;
+	position: absolute;
+	transition: width 5s;
+}
+	
+nav ul li a:hover: :before {
+	width: 100%;
+} 
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+div#general{
+	margin: auto;
+	margin-top:0px;
+	width:960px;
+	height:500px;
+	background-color:#B4FE98;
+}
+
+div#ofertas{
+	float:right;   
+	width:300px;
+	height:500px;
+	background-color: #77E4D4;
+	color: #3E065F;
+	font-family: 'impact';
+}
+
+div#novedades{
+	width:640px;
+	height:200px;
+	background-color:#998CEB;
+}
+
+div#cuerpo{
+	margin-top:10px;
+	width:640px;
+	height:272px;
+	background-color:purple;
+	color: white;
+} 
+
+p {
+	color:#090910;
+	font-family: 'Impact';
+	background-color:#FBFF00;
+	text-align: center;
+}
+
